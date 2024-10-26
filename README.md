@@ -50,4 +50,4 @@ sum += std::pow(hist1[i] - hist2[i], 2);
 saveImageWithBoundingBoxes Function: This function takes an image, draws a bounding box around detected facial features, and saves it to an output directory. It uses pixel manipulation to draw a rectangle in green around the facial area, which can be adjusted based on detection results.
 
 ## Running the Project
-To run the program, compile the main code and run the executable in a directory containing the dataSet folder with images. The program will process each image and save the output in the output_images directory with bounding boxes drawn on detected faces.
+To run the program, compile the main code in visual studio and run. The program will process each image and save the output in the output_images directory with bounding boxes drawn on detected faces.
