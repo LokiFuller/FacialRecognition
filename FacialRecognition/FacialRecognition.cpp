@@ -5,11 +5,15 @@
 #include <cmath>
 #include <fstream>
 #include <string>
+
+// dirent.h (Tronkko's port) provides POSIX-compatible directory handling for Windows,
+// enabling directory traversal similar to Unix-based systems.
 #include "dirent.h"
+
+// stb_image and stb_image_write libraries are used for loading and saving images in various formats.
+// These are single-header public domain libraries by Sean Barrett, designed for simplicity.
 #include "stb_image.h"
 #include "stb_image_write.h"
-#include <direct.h>
-
 
 bool hasExtension(const std::string& filename, const std::string& extension) {
     if (filename.length() >= extension.length()) {
