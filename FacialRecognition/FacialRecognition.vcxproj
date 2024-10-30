@@ -131,10 +131,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EuclideanDistanceCalculation.cpp" />
     <ClCompile Include="FacialRecognition.cpp" />
+    <ClCompile Include="ImageProcessing.cpp" />
+    <ClCompile Include="LBP.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dirent.h" />
+    <ClInclude Include="EuclideanDistanceCalculation.h" />
+    <ClInclude Include="ImageProcessing.h" />
+    <ClInclude Include="LBP.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="stb_image_write.h" />
   </ItemGroup>
